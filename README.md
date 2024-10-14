@@ -1,2 +1,2 @@
 # Sachin10
-I want to learn coding GOD
+I want to learn coding
