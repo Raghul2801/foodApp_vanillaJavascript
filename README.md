@@ -9,5 +9,4 @@ A simple app with following features:
 
 Simply clone the app and run in browser.
 
-Thank you!!
-Naveen Chaudhary
+Thank you All For Reading!!
