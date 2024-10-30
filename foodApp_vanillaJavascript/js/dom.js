@@ -58,11 +58,11 @@ let displayAllHotels = () => {
 
 displayAllHotels();
 
-// display searched hotels as per entered text and showing result by tags
+// display searched hotels as per entered text and showing result by name
 function searchResult() {
        console.log("called!!")
        let d = document.getElementById("myInput");
-       let searchMatchingHotels = allHotelsDataCopy.filter(hotel => hotel.tags.toString().toUpperCase().indexOf(d.value.toUpperCase()) > -1)
+       let searchMatchingHotels = allHotelsDataCopy.filter(hotel => hotel.name.toString().toUpperCase().indexOf(d.value.toUpperCase()) > -1)
        mainRow.innerHTML = generateView(searchMatchingHotels).join('')
        errorMessageElement.innerText = (searchMatchingHotels == 0) ? `No hotels Found for ${d.value}` : '';
 }
